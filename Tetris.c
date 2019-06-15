@@ -1,12 +1,5 @@
-/*Universidade de Brasilia
-Instituto de Ciencias Exatas
-Departamento de Ciencia da Computacao
-Algoritmos e Programação de Computadores – 0/2018
-Aluno(a): < Rafael da Silva Oliveira>
-Matricula: < 17/0154459 >
-Turma: B Verao
-Versão do compilador: <Code::Blocks 17.12>
-Descricao: < Programa de Jogo Tetris em C >*/
+
+/*Descricao: < Programa de Jogo Tetris em C >*/
 
 #include<stdio.h>
 #include<string.h>
@@ -14,7 +7,7 @@ Descricao: < Programa de Jogo Tetris em C >*/
 
 void limpa(char game[][20])
 {
-	/* funçao que ler  a matriz game, onde sao recebidas as  sequencias
+	/* funÃ§ao que ler  a matriz game, onde sao recebidas as  sequencias
 	e preenchimento com espacos em branco para limpa-la*/
 	int i, j;
 	for(i = 0; i < 6; i++) /*percorre o vetor de  linhas*/
